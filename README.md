@@ -1,4 +1,7 @@
 # dotfiles
+## はじめに
+おおつねさんに怒られたので dotfiles のバックアップがてらここに公開します。
+
 ## おねがい
 「ここがダサい」とかあれば [@yukogets](http://twitter.com/yukogets) とかで教えて下さい\[\(:3\[　　\]
 

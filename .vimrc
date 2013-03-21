@@ -76,6 +76,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'tpope/vim-rails.git'
+Bundle 'tpope/vim-surround'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
@@ -115,4 +116,11 @@ let g:solarized_visibility='normal'
 syntax enable
 set background=dark
 colorscheme solarized
+
+" templates
+" ---------
+augroup SkeletonAu
+  autocmd!
+  autocmd BufNewFile *.html 0r $HOME/vimfiles/templates/skel.html
+augroup END
 

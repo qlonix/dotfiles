@@ -23,6 +23,7 @@ alias sls="screen -ls"
 alias sr="screen -r"
 alias t="todo"
 alias jnethack="cocot -t UTF-8 -p EUC-JP /usr/local/bin/jnethack"
+alias less="lv"
 
 ##
 # ヒストリー機能

@@ -24,6 +24,7 @@ alias sr="screen -r"
 alias t="todo"
 alias jnethack="cocot -t UTF-8 -p EUC-JP /usr/local/bin/jnethack"
 alias less="lv"
+alias dbox="/usr/local/bin/dropbox-api"
 
 ##
 # ヒストリー機能
@@ -93,3 +94,4 @@ PROMPT2='[%n]> '
 
 # もしかして時のプロンプト指定
 SPROMPT="%{$fg[red]%}%{$suggest%}(*'~'%)? < もしかして %B%r%b %{$fg[red]%}かな? [そう!(y), 違う!(n),a,e]:${reset_color} "
+

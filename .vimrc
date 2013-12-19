@@ -124,3 +124,4 @@ augroup SkeletonAu
   autocmd BufNewFile *.html 0r $HOME/vimfiles/templates/skel.html
 augroup END
 
+set backupskip=/var/tmp/*

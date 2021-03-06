@@ -14,7 +14,7 @@ setopt correct
 setopt list_packed
 setopt list_types
 
-alias vi="/usr/local/bin/vim"
+#alias vi="/usr/local/bin/vim"
 alias ls="ls -FG"
 alias la="ls -aF"
 alias ll="ls -lF"
@@ -23,7 +23,7 @@ alias sls="screen -ls"
 alias sr="screen -r"
 alias t="todo"
 alias jnethack="cocot -t UTF-8 -p EUC-JP /usr/local/bin/jnethack"
-alias less="lv"
+#alias less="lv"
 alias dbox="/usr/local/bin/dropbox-api"
 
 ##

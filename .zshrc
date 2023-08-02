@@ -14,6 +14,7 @@ setopt correct
 setopt list_packed
 setopt list_types
 
+# FreeBSD 寄りになっているので Linux でも活かせるように直したい
 #alias vi="/usr/local/bin/vim"
 alias ls="ls -FG"
 alias la="ls -aF"

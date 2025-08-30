@@ -117,7 +117,7 @@ let g:solarized_contrast='normal'
 let g:solarized_visibility='normal'
 syntax enable
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 " templates
 " ---------

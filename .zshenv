@@ -26,8 +26,8 @@ export LISTMAX=0
 ## cpanm
 export PERL_CPANM_OPT="--local-lib=~/extlib"
 export PERL5LIB="$HOME/extlib/lib/perl5:$HOME/extlib/lib/perl5/i386-freebsd-64int:$PERL5LIB"
-export PERL5LIB="/home/qlo/perl5/lib/perl5:$PERL5LIB";
-export PERL_LOCAL_LIB_ROOT="/home/qlo/perl5:$PERL_LOCAL_LIB_ROOT";
-export PERL_MB_OPT="--install_base "/home/qlo/perl5"";
-export PERL_MM_OPT="INSTALL_BASE=/home/qlo/perl5";
-export PATH="/home/qlo/perl5/bin:$PATH";
+export PERL5LIB="$HOME/perl5/lib/perl5:$PERL5LIB";
+export PERL_LOCAL_LIB_ROOT="$HOME/perl5:$PERL_LOCAL_LIB_ROOT";
+export PERL_MB_OPT="--install_base "$HOME/perl5"";
+export PERL_MM_OPT="INSTALL_BASE=$HOME/perl5";
+export PATH="$HOME/perl5/bin:$PATH";
